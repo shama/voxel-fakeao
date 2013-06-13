@@ -20,7 +20,7 @@ fakeao.onGeometry(mesh.geometry, '#ff0000');
 
 // Or specific faces
 for (var i = 0; i < geometry.faces.length; ++i) {
-  fakeao(geometry.faces[i], '#dddddd', Math.random() | 0xffffff);
+  fakeao(geometry.faces[i], '#dddddd', (Math.random() * 0xffffff)|0);
 }
 ```
 
