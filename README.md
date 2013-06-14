@@ -50,6 +50,7 @@ npm install voxel-fakeao
 Use [browserify](http://browserify.org) to `require('voxel-fakeao')`.
 
 ## release history
+* 0.1.1 - fix color conversions
 * 0.1.0 - initial release
 
 ## license
